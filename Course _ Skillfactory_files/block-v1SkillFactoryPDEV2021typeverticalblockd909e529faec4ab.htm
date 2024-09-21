@@ -1,0 +1,1182 @@
+<!DOCTYPE html>
+<!--[if lte IE 9]><html class="ie ie9 lte9" lang="ru"><![endif]-->
+<!--[if !IE]><!-->
+<html lang="ru"><!--<![endif]--><head dir="ltr">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="origin-trial" content="ArNBN7d1AkvMhJTGWXlJ8td/AN4lOokzOnqKRNkTnLqaqx0HpfYvmx8JePPs/emKh6O5fckx14LeZIGJ1AQYjgAAAABzeyJvcmlnaW4iOiJodHRwOi8vbG9jYWxob3N0OjE4MDAwIiwiZmVhdHVyZSI6IkRpc2FibGVEaWZmZXJlbnRPcmlnaW5TdWJmcmFtZURpYWxvZ1N1cHByZXNzaW9uIiwiZXhwaXJ5IjoxNjM5NTI2Mzk5fQ==">
+
+
+    
+    <title>
+
+ PDEV Courseware | Skillfactory
+</title>
+
+
+
+
+<script async="" src="tag.js"></script><script type="text/javascript" src="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/djangojs.0387ac39f9bc.js"></script>
+<script type="text/javascript" src="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/ie11_find_array.bd1c6dc7a133.js"></script>
+
+<link rel="icon" type="image/x-icon" href="https://lms-cdn.skillfactory.ru/static/edx-theme/images/favicon.92d1a59c6dad.ico">
+
+
+
+
+  
+
+    <link href="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/lms-style-vendor.68e48093f5dd.css" rel="stylesheet" type="text/css">
+
+
+
+
+  
+
+    <link href="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/lms-main-v1.0c15fb93e2a0.css" rel="stylesheet" type="text/css">
+
+
+
+
+
+    
+<script type="text/javascript" src="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/lms-main_vendor.3c3c9a2604d6.js" charset="utf-8"></script>
+
+
+
+    
+<script type="text/javascript" src="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/lms-application.98d9a8549a03.js" charset="utf-8"></script>
+
+
+
+
+    
+    
+    <script type="text/javascript" src="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/commons.9ce1adffa211f712ab2b.84b81fb94f7e.js"></script>
+
+
+
+<script>
+    window.baseUrl = "https://lms\u002Dcdn.skillfactory.ru/static/";
+    (function (require) {
+        require.config({
+            baseUrl: window.baseUrl
+        });
+    }).call(this, require || RequireJS.require);
+</script>
+<script type="text/javascript" src="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/require-config.3cb9f35ae96d.js"></script>
+
+<script type="text/javascript">
+        (function (require) {
+          require.config({
+              paths: {
+                'course_bookmarks/js/views/bookmark_button': 'course_bookmarks/js/views/bookmark_button.d4cfaf3361fa',
+'js/views/message_banner': 'js/views/message_banner.141974fd4f5d',
+'moment': 'common/js/vendor/moment-with-locales.e3cc27d412a1',
+'moment-timezone': 'common/js/vendor/moment-timezone-with-data.60142e6c4416',
+'js/courseware/course_info_events': 'js/courseware/course_info_events.2fc35b57627f',
+'js/courseware/accordion_events': 'js/courseware/accordion_events.6064c7809de5',
+'js/dateutil_factory': 'js/dateutil_factory.a28baef97506',
+'js/courseware/link_clicked_events': 'js/courseware/link_clicked_events',
+'js/courseware/toggle_element_visibility': 'js/courseware/toggle_element_visibility.474ff5ba9de3',
+'js/student_account/logistration_factory': 'js/student_account/logistration_factory.5e55252d0ace',
+'js/courseware/courseware_factory': 'js/courseware/courseware_factory.1504fc10caef',
+'js/groups/views/cohorts_dashboard_factory': 'js/groups/views/cohorts_dashboard_factory.ca68388d81d6',
+'js/groups/discussions_management/discussions_dashboard_factory': 'js/discussions_management/views/discussions_dashboard_factory.2e10d9097343',
+'draggabilly': 'js/vendor/draggabilly.26caba6f7187',
+'hls': 'common/js/vendor/hls.5e0c7e1b3bfd'
+            }
+          });
+        }).call(this, require || RequireJS.require);
+    </script>
+
+
+
+
+  
+
+    <link href="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/lms-style-course-vendor.cc467ea1c47d.css" rel="stylesheet" type="text/css">
+
+
+
+
+  
+
+    <link href="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/lms-course.e8431918ed94.css" rel="stylesheet" type="text/css">
+
+
+
+
+<script type="text/javascript" src="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/jquery.autocomplete.964a0bfb4fd2.js" async=""></script>
+<script type="text/javascript" src="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/tooltip_manager.b8fa94d4cefc.js" async=""></script>
+
+<link href="https://lms-cdn.skillfactory.ru/static/css/vendor/jquery.autocomplete.css" rel="preload" type="text/css">
+  
+
+  <!-- base href="https://lms.skillfactory.ru/xblock/block-v1:SkillFactory+PDEV+2021+type@vertical+block@d909e529faec4ab38fed54a076998930?show_title=0&show_bookmark_button=0&recheck_access=1&view=student_view" -->
+
+<script type="text/javascript">
+  var $$course_id = "course\u002Dv1:SkillFactory+PDEV+2021";
+</script>
+
+
+
+
+
+
+
+
+
+
+<script type="application/json" id="user-metadata">
+    null
+</script>
+
+
+
+
+
+
+
+
+
+<!-- dummy Segment -->
+<script type="text/javascript">
+  var analytics = {
+    track: function() { return; },
+    trackLink: function() { return; },
+    pageview: function() { return; },
+    page: function() { return; }
+  };
+</script>
+<!-- end dummy Segment -->
+
+
+<meta name="path_prefix" content="">
+
+
+<meta name="openedx-release-line" content="maple">
+
+
+
+
+
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(91593102, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+    });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/91593102" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<!-- Google tag (gtag.js) -->
+<script async="" src="js"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-T4T8K8RLJL');
+</script>
+
+<style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1px; bottom: 2px; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="https://lms-cdn.skillfactory.ru/static/js/dateutil_factory.a28baef97506.js?raw" src="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/dateutil_factory.a28baef97506.js"></script><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover, .MJXp-munder {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > *, .MJXp-munder > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style></head>
+
+<body class="ltr view-in-course view-courseware courseware  lang_ru view-in-mfe"><div id="MathJax_Message" style="display: none;"></div>
+
+
+<div id="page-prompt"></div>
+    
+    <a class="nav-skip sr-only sr-only-focusable" href="#main">Перейти к основному содержимому</a>
+
+
+    
+
+
+
+
+
+
+
+
+
+
+    <div class="marketing-hero"></div>
+
+<div class="content-wrapper main-container" id="content" dir="ltr">
+    
+
+
+
+
+
+
+
+
+<script type="text/template" id="image-modal-tpl">
+    <div class="wrapper-modal wrapper-modal-image">
+  <section class="image-link">
+    <%= smallHTML%> <% // xss-lint: disable=underscore-not-escaped %>
+    <a href="#" class="modal-ui-icon action-fullscreen" role="button">
+      <span class="label">
+        <span class="icon fa fa-arrows-alt fa-large" aria-hidden="true"></span> <%- gettext("Fullscreen") %>
+      </span>
+    </a>
+  </section>
+
+  <section class="image-modal">
+    <section class="image-content">
+      <div class="image-wrapper">
+        <img alt="<%- largeALT %>, <%- gettext('Large') %>" src="<%- largeSRC %>" />
+      </div>
+
+      <a href="#" class="modal-ui-icon action-close" role="button">
+        <span class="label">
+          <span class="icon fa fa-remove fa-large" aria-hidden="true"></span> <%- gettext("Close") %>
+        </span>
+      </a>
+
+      <ul class="image-controls">
+        <li class="image-control">
+          <a href="#" class="modal-ui-icon action-zoom-in" role="button">
+            <span class="label">
+              <span class="icon fa fa fa-search-plus fa-large" aria-hidden="true"></span> <%- gettext("Zoom In") %>
+            </span>
+          </a>
+        </li>
+
+        <li class="image-control">
+          <a href="#" class="modal-ui-icon action-zoom-out is-disabled" aria-disabled="true" role="button">
+            <span class="label">
+              <span class="icon fa fa fa-search-minus fa-large" aria-hidden="true"></span> <%- gettext("Zoom Out") %>
+            </span>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </section>
+</div>
+
+</script>
+
+
+
+
+
+
+
+<div class="course-wrapper chromeless">
+  <section class="course-content" id="course-content" data-enable-completion-on-view-service="false" style="display: block; width: auto; margin: 0;">
+      <main id="main" aria-label="Content">
+        
+<div class="xblock xblock-student_view xblock-student_view-vertical xblock-initialized" data-course-id="course-v1:SkillFactory+PDEV+2021" data-init="VerticalStudentView" data-runtime-class="LmsRuntime" data-runtime-version="1" data-block-type="vertical" data-usage-id="block-v1:SkillFactory+PDEV+2021+type@vertical+block@d909e529faec4ab38fed54a076998930" data-request-token="bce76f56735e11efa83fb2a9ab5ee11d" data-graded="False" data-has-score="False">
+  
+
+
+
+
+
+
+
+
+
+<div class="vert-mod">
+    <div class="vert vert-0" data-id="block-v1:SkillFactory+PDEV+2021+type@html+block@6f6af510dbb14dbb93d8b0223c9f409c">
+        
+<div class="xblock xblock-student_view xblock-student_view-html xmodule_display xmodule_HtmlBlock xblock-initialized" data-course-id="course-v1:SkillFactory+PDEV+2021" data-init="XBlockToXModuleShim" data-runtime-class="LmsRuntime" data-runtime-version="1" data-block-type="html" data-usage-id="block-v1:SkillFactory+PDEV+2021+type@html+block@6f6af510dbb14dbb93d8b0223c9f409c" data-request-token="bce76f56735e11efa83fb2a9ab5ee11d" data-graded="False" data-has-score="False">
+  
+  <figure style="text-align: center;"><img src="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/m9_cover_github.svg" alt="img" style="-webkit-filter: drop-shadow(5px 5px 5px #222); filter: drop-shadow(5px 5px 5px #666666); margin-bottom: 5px;" width="400"></figure>
+<figure style="text-align: center;"><figcaption>&nbsp;</figcaption></figure>
+<div style="padding: 20px; margin: 20px; border: 2px solid #00b43f; border-radius: 10px;"><strong style="color: #00b43f;">GitHub</strong> — веб-сервис, который основан на системе <em>Git</em>. Его часто называют «социальной сетью для разработчиков»<span style="font-size: 1em;">, которая помогает удобно вести коллективную разработку <em>IT</em>-
+проектов. Здесь можно публиковать и редактировать свой код, 
+комментировать чужие наработки, следить за новостями других 
+пользователей.&nbsp;</span>У программистов есть возможность объединять 
+репозитории и выводить вклад каждого участника в определённый 
+репозиторий в виде дерева.</div>
+<p></p>
+<p><strong>Ключевые особенности <em>GitHub</em>, помимо функций <em>Git</em> репозитория:</strong></p>
+<p></p>
+<div style="background-color: #f5f5f5; padding: 15px;">
+<ul>
+<ul>
+<li>Настройка вариантов совместной работы команды с файлами репозитория.</li>
+<li>Публичные и личные репозитории для бесплатного аккаунта. Публичные 
+репозитории доступны как для чтения, так и для записи другим 
+авторизованным участникам данного сервиса, а также для чтения любому, 
+имеющему ссылку. Приватные репозитории доступны только их владельцу.</li>
+<li>Добавление в репозиторий файлов пользователями, имеющими доступ «по записи». Для этого используется интерфейс <em>Git</em>, установленный локально на компьютерах, или веб-интерфейс <em>GitHub</em>.</li>
+<li>Клонирование репозитория целиком с помощью интерфейсов локально установленного <em>Git</em>&nbsp;и сервиса <em>GitHub</em>.</li>
+<li>Создание организации в рамках своего аккаунта, добавление 
+репозиториев и приглашение пользователей для участия. Гибкое назначение 
+им прав на работу с файлами репозитория.</li>
+<li>Функционирование в качестве полноценной системы управления 
+проектами. Это значит, что пользователи могут создавать задачи, 
+связывать задачи с конкретным репозиторием, определять процесс работы 
+над задачами, привлекать других пользователей к проекту.</li>
+<li>Наличие <em>API</em>, благодаря которому можно интегрировать <em>GitHub</em> в другие приложения, например, в системы управления проектами типа <em>JIRA</em>. Это позволяет построить интегрированную систему, в которой задачи в <em>JIRA</em> интегрируются с репозиториями в <em>GitHub</em>. Благодаря чему пользователи видят, какие изменения в коде связаны с той или иной задачей.</li>
+<li>Подсветка синтаксиса для большинства языков.</li>
+<li>Наличие справочной системы, <em>wiki</em>, для любого репозитория.</li>
+<li>Платные аккаунты для работы с <em>GitHub</em> добавляют&nbsp;множество других весьма полезных функций.</li>
+</ul>
+</ul>
+</div>
+<p></p>
+<p>В этом модуле мы затронем работу с небольшой частью функционала <em>GitHub</em>. Более глубоко узнать <em>GitHub</em> вы сможете самостоятельно, в том числе читая документацию после авторизации в этом сервисе.</p>
+<p></p>
+</div>
+
+    </div>
+    <div class="vert vert-1" data-id="block-v1:SkillFactory+PDEV+2021+type@html+block@60417450b2be4214a5ae7ec391197c5e">
+        
+<div class="xblock xblock-student_view xblock-student_view-html xmodule_display xmodule_HtmlBlock xblock-initialized" data-course-id="course-v1:SkillFactory+PDEV+2021" data-init="XBlockToXModuleShim" data-runtime-class="LmsRuntime" data-runtime-version="1" data-block-type="html" data-usage-id="block-v1:SkillFactory+PDEV+2021+type@html+block@60417450b2be4214a5ae7ec391197c5e" data-request-token="bce76f56735e11efa83fb2a9ab5ee11d" data-graded="False" data-has-score="False">
+  
+  <h2><b>Регистрация и создание репозитория</b></h2>
+<div style="height: 0px; border-bottom: 2px #00b43f solid; width: 60%;" align="left"></div>
+<p></p>
+<p>Прежде чем перейти к знакомству с <em>GitHub</em>, необходимо создать
+ аккаунт на этом сервисе. Ниже есть пошаговая инструкция, но если устали
+ от текста, сначала посмотрите это видео.</p>
+<p></p>
+<center><iframe src="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/200942479.htm" allow="autoplay; fullscreen; picture-in-picture; encrypted-media;; picture-in-picture; encrypted-media;; picture-in-picture; encrypted-media;" allowfullscreen="" width="854" height="480" frameborder="0"></iframe></center>
+<p></p>
+<p>Выполните следующие шаги:</p>
+<ol><ol>
+<li>Есть ли у вас учётная запись на этом сервисе?
+<ul>
+<ul>
+<li>Есть — пропустите этот шаг.</li>
+<li>Нет — перейдите&nbsp;<span style="text-decoration: underline;"><a href="https://github.com/" target="_blank" style="text-decoration: underline;">по ссылке</a></span> к форме регистрации.</li>
+</ul>
+</ul>
+</li>
+<li>Выберите имя пользователя, почтовый ящик, пароль и кликните на <em>Sign Up</em>. После проверки ваших учётных данных&nbsp;<em>Git</em> предложит решить простую задачу, чтобы удостовериться, что вы человек, а не робот.</li>
+<li>Кликните на кнопку <em>Join free plan,</em>&nbsp;на открывшейся странице выберите ваши активности и то, как вы планируете использовать <em>GIT</em>.</li>
+<li>Кликните <em>Complete setup,</em> и на следующей странице <em>GitHub</em> предложит вам верифицировать ваш <em>email</em> адрес.
+<p></p>
+<figure style="text-align: center;"><img src="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/qap_un_9_9.2.GitHub_ask_for_verification.png" alt="img" style="-webkit-filter: drop-shadow(5px 5px 5px #222); filter: drop-shadow(5px 5px 5px #666666); margin-bottom: 5px;" width="800"> <figcaption><span style="color: #999999;">Верификация <em>email</em> </span></figcaption></figure>
+<p></p>
+</li>
+<li>Откройте папку Входящие своего <em>email</em> и найдите сообщение от <em>GitHub</em>. Откройте его и кликните в этом сообщении на кнопку <em>Verify email address</em>.
+<p></p>
+<figure style="text-align: center;"><img src="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/qap_un_9_9.2.GitHub_verification_email.png" alt="img" style="-webkit-filter: drop-shadow(5px 5px 5px #222); filter: drop-shadow(5px 5px 5px #666666); margin-bottom: 5px;" width="800"> <figcaption><span style="color: #999999;">Сообщение от <em>GitHub</em> в электронной почте</span></figcaption></figure>
+<p></p>
+</li>
+<li>После этого вы будете перенаправлены на свою страничку <em>GitHub</em>, где увидите сообщение об успешном подтверждении вашего <em>email</em> и предложение о первых шагах на <em>GitHub</em>.
+<p></p>
+<figure style="text-align: center;"><img src="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/qap_un_9_9.2.GitHub_successful_verification.png" alt="img" style="-webkit-filter: drop-shadow(5px 5px 5px #222); filter: drop-shadow(5px 5px 5px #666666); margin-bottom: 5px;" width="800"> <figcaption><span style="color: #999999;">Первые шаги на <em>GitHub</em>. Что сделать в первую очередь?</span></figcaption></figure>
+<p></p>
+</li>
+</ol></ol>
+<p>Теперь вы можете создавать свои репозитории или присоединиться к работе над проектами других разработчиков.</p>
+<p>Чтобы создать репозиторий на <em>GitHub</em>, воспользуйтесь следующей <span style="text-decoration: underline;"><a href="https://help.github.com/en/articles/create-a-repo" target="_blank" style="text-decoration: underline;">инструкцией</a></span>. В инструкции создаётся репозиторий <em>hello-world</em>, но вы можете назвать его иначе.</p>
+<p>Теперь у вас есть локальный репозиторий и репозиторий на сервере (на <em>github.com</em>). Пришло время связать локальный репозиторий на вашем компьютере с удалённым репозиторием, который вы только что создали на <em>GitHub</em>. Чтобы это осуществить, снова перейдём в терминал.</p>
+<p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; text-align: center;"><span style="font-size: 11pt; font-family: 'Courier New'; color: #000000; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;"> // в папке Skillfactory</span></p>
+<p style="text-align: center;"><code style="background-color: #f0f8ff;">git remote add origin https://github.com/&lt;your_name&gt;/&lt;remote_repository_name&gt;.git</code></p>
+<p><span style="font-size: 1em;">Обратите внимание, что вместо <code style="background-color: #f0f8ff;">&lt;your_name&gt;</code> и <code style="background-color: #f0f8ff;">&lt;remote_repository_name&gt;</code> следует указать ваш аккаунт на <em>Github</em> и название созданного на <em>Github</em> репозитория.</span></p>
+<p>Остался последний шаг: пришло время добавить локальные изменения 
+(коммит) на удалённый сервер. Для этого в терминале выполните команду:</p>
+<p style="text-align: center;"><span style="color: #000000; font-family: 'Courier New'; font-size: 14.6667px; text-align: center; text-indent: 48px; white-space: pre-wrap;">// в папке Skillfactory</span></p>
+<p style="text-align: center;"><code style="background-color: #f0f8ff;">git push origin master</code></p>
+<p>Терминал запросит ваш <em>Username</em> и пароль.</p>
+<p>Теперь вы можете видеть изменения в репозитории по адресу:</p>
+<p style="text-align: center;">https://github.com/&lt;your_name&gt;/&lt;remote_repository_name&gt;</p>
+<p></p>
+<h2><strong>Видеоинструкция ниже:</strong></h2>
+<p></p>
+<center><iframe src="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/200936667.htm" allow="autoplay; fullscreen; picture-in-picture; encrypted-media;; picture-in-picture; encrypted-media;; picture-in-picture; encrypted-media;" allowfullscreen="" width="854" height="480" frameborder="0"></iframe></center><center>
+<p></p>
+<iframe src="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/200928457.htm" allow="autoplay; fullscreen; picture-in-picture; encrypted-media;; picture-in-picture; encrypted-media;; picture-in-picture; encrypted-media;" allowfullscreen="" width="854" height="480" frameborder="0"></iframe></center>
+<p></p>
+<p></p>
+</div>
+
+    </div>
+    <div class="vert vert-2" data-id="block-v1:SkillFactory+PDEV+2021+type@html+block@4655ab5a1ec749bda8827147d1b48c99">
+        
+<div class="xblock xblock-student_view xblock-student_view-html xmodule_display xmodule_HtmlBlock xblock-initialized" data-course-id="course-v1:SkillFactory+PDEV+2021" data-init="XBlockToXModuleShim" data-runtime-class="LmsRuntime" data-runtime-version="1" data-block-type="html" data-usage-id="block-v1:SkillFactory+PDEV+2021+type@html+block@4655ab5a1ec749bda8827147d1b48c99" data-request-token="bce76f56735e11efa83fb2a9ab5ee11d" data-graded="False" data-has-score="False">
+  
+  <h2><strong>Альтернативные способы синхронизации</strong></h2>
+<div style="height: 0px; border-bottom: 2px #00b43f solid; width: 70%;" align="left"></div>
+<p></p>
+<p>Локальный и удалённый репозиторий можно синхронизировать <strong>разными способами</strong>.
+ В отличие от способа выше, можно сначала создать удалённый репозиторий,
+ а потом подключить к нему локальный. То есть процесс будет в другом 
+порядке и с новой командой:</p>
+<p style="text-align: center;"><code style="background-color: #f0f8ff;">git clone</code></p>
+<p></p>
+<div style="padding: 56.25% 0 0 0; position: relative;"><iframe src="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/200932647.htm" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; encrypted-media;" allowfullscreen=""></iframe></div>
+
+<p></p>
+</div>
+
+    </div>
+    <div class="vert vert-3" data-id="block-v1:SkillFactory+PDEV+2021+type@html+block@85633032109141208739b4f53f7fa4f0">
+        
+<div class="xblock xblock-student_view xblock-student_view-html xmodule_display xmodule_HtmlBlock xblock-initialized" data-course-id="course-v1:SkillFactory+PDEV+2021" data-init="XBlockToXModuleShim" data-runtime-class="LmsRuntime" data-runtime-version="1" data-block-type="html" data-usage-id="block-v1:SkillFactory+PDEV+2021+type@html+block@85633032109141208739b4f53f7fa4f0" data-request-token="bce76f56735e11efa83fb2a9ab5ee11d" data-graded="False" data-has-score="False">
+  
+  <h2><strong>GitHub Pages</strong></h2>
+<div style="height: 0px; border-bottom: 2px #00b43f solid; width: 30%;" align="left"></div>
+<p></p>
+<p>Также можно перенести файлы с компьютера на удалённый репозиторий 
+вручную, как это сделал наш коллега из другого курса. В видео ниже он 
+демонстрирует, как выложить ваш проект в сеть для демонстрации заказчику
+ или проверки ментором.<b>&nbsp;</b>Эта функция реализуется с помощью настройки <em>GitHubPages.</em></p>
+<p></p>
+<div style="padding: 56.25% 0 0 0; position: relative;"><iframe src="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/200929718.htm" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; encrypted-media;" allowfullscreen=""></iframe></div>
+
+<p></p>
+<div style="background-color: #f5f5f5; padding: 15px;"><b>Потренируйтесь добавлять файлы таким образом, используя результат вёрстки, который получился у вас в модуле 5.</b></div>
+<p></p>
+<p dir="ltr" style="line-height: 1.38; background-color: #ffffff; margin-top: 15pt; margin-bottom: 0pt; padding: 0pt 0pt 17pt 0pt;"><span style="font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;"><span style="font-size: 12pt; color: #313131; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><em>GitHub</em> позволяет не только хранить ваши проекты в виде репозиториев, но и использовать его как </span><span style="font-size: 12pt; color: #313131; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">хостинг</span><span style="font-size: 12pt; color: #313131; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"> для фронтэнд проекта. То есть для такого проекта, где есть только <em>HTML</em>, <em>CSS</em> и <em>JS</em>. Использовать его с бэкендом или <em>CMS</em> и базой данных не получится.&nbsp;</span></span></p>
+<p dir="ltr" style="line-height: 1.38; background-color: #ffffff; margin-top: 0pt; margin-bottom: 0pt; padding: -2pt 0pt 17pt 0pt;"><span style="font-size: 12pt; font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif; color: #313131; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Чтобы превратить репозиторий в полноценный сайт, достаточно открыть страницу вашего репозитория на <em>GitHub</em>, открыть вкладку Настроек (<em>Settings</em>):</span></p>
+<p></p>
+<figure style="text-align: center;"><img src="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/4.13-screen-8.png" alt="img" style="-webkit-filter: drop-shadow(5px 5px 5px #222); filter: drop-shadow(5px 5px 5px #666666); margin-bottom: 5px;" width="700"></figure>
+<p></p>
+<p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;"><span style="font-size: 12pt; color: #313131; background-color: #ffffff; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">В ней найти раздел </span><span style="font-size: 12pt; color: #313131; background-color: #ffffff; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Github Pages</span><span style="font-size: 12pt; color: #313131; background-color: #ffffff; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">:</span></span></p>
+<p></p>
+<figure style="text-align: center;"><img src="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/4.13-screen-9.png" alt="img" style="-webkit-filter: drop-shadow(5px 5px 5px #222); filter: drop-shadow(5px 5px 5px #666666); margin-bottom: 5px;" width="700"></figure>
+<p></p>
+<p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;"><span style="font-size: 12pt; color: #313131; background-color: #ffffff; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">В нём выбрать источник для страницы. Как правило, это <em>master</em></span><span style="font-size: 12pt; color: #313131; background-color: #ffffff; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"> ветка:</span></span></p>
+<p></p>
+<figure style="text-align: center;"><img src="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/4.13-screen-10.png" alt="img" style="-webkit-filter: drop-shadow(5px 5px 5px #222); filter: drop-shadow(5px 5px 5px #666666); margin-bottom: 5px;" width="700"></figure>
+<p></p>
+<p dir="ltr" style="line-height: 1.38; background-color: #ffffff; margin-top: 0pt; margin-bottom: 0pt; padding: 0pt 0pt 17pt 0pt;"><span style="font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;"><span style="font-size: 12pt; color: #313131; background-color: #ffffff; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">В корневом каталоге репозитория при этом обязательно должен лежать файл</span><span style="font-size: 12pt; color: #313131; background-color: #ffffff; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"> <code style="background-color: #f0f8ff;">index.html</code></span><span style="font-size: 12pt; color: #313131; background-color: #ffffff; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">, иначе браузер не сможет открыть страницу по адресу. Для серверов у хостинг-провайдеров это тоже верно.</span></span></p>
+<p dir="ltr" style="line-height: 1.38; background-color: #ffffff; margin-top: 0pt; margin-bottom: 0pt; padding: -2pt 0pt 17pt 0pt;"><span style="font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;"><span style="font-size: 12pt; color: #313131; background-color: #ffffff; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Готово! Вы должны увидеть зелёное сообщение о том, что страница опубликована, и её адрес в интернете. Реальный доступ может появиться не мгновенно. Если вы видите по адресу ошибку </span><span style="font-size: 12pt; color: #313131; background-color: #ffffff; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">404</span><span style="font-size: 12pt; color: #313131; background-color: #ffffff; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">, просто подождите немного или перезагрузите страницу с помощью </span><span style="font-size: 12pt; color: #313131; background-color: #ffffff; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><code style="background-color: #f0f8ff;">Ctrl+F5</code></span><span style="font-size: 12pt; color: #313131; background-color: #ffffff; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">.</span></span></p>
+<p dir="ltr" style="line-height: 1.38; background-color: #ffffff; margin-top: 0pt; margin-bottom: 0pt; padding: -2pt 0pt 17pt 0pt;"></p>
+<p dir="ltr" style="line-height: 1.38; background-color: #ffffff; margin-top: 0pt; margin-bottom: 17pt; padding: -2pt 0pt 0pt 0pt;"><span style="font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;"><span style="font-size: 12pt; color: #313131; background-color: #ffffff; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Помимо файлов с <em>HTML</em>, <em>CSS</em> и <em>JS</em> кодом, вы можете размещать на <em>Github Pages</em> все стандартные форматы </span><span style="font-size: 12pt; color: #313131; background-color: #ffffff; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">изображений</span><span style="font-size: 12pt; color: #313131; background-color: #ffffff; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">, которые поддерживают браузеры (<em>jpg</em>, <em>png</em>, <em>svg</em>).</span></span></p>
+</div>
+
+    </div>
+    <div class="vert vert-4" data-id="block-v1:SkillFactory+PDEV+2021+type@problem+block@f05712df438e4acab4981316900116f0">
+        
+<div class="xblock xblock-student_view xblock-student_view-problem xmodule_display xmodule_ProblemBlock xblock-initialized" data-course-id="course-v1:SkillFactory+PDEV+2021" data-init="XBlockToXModuleShim" data-runtime-class="LmsRuntime" data-runtime-version="1" data-block-type="problem" data-usage-id="block-v1:SkillFactory+PDEV+2021+type@problem+block@f05712df438e4acab4981316900116f0" data-request-token="bce76f56735e11efa83fb2a9ab5ee11d" data-graded="False" data-has-score="True">
+  
+  <div id="problem_f05712df438e4acab4981316900116f0" class="problems-wrapper" role="group" aria-labelledby="f05712df438e4acab4981316900116f0-problem-title" data-problem-id="block-v1:SkillFactory+PDEV+2021+type@problem+block@f05712df438e4acab4981316900116f0" data-url="/courses/course-v1:SkillFactory+PDEV+2021/xblock/block-v1:SkillFactory+PDEV+2021+type@problem+block@f05712df438e4acab4981316900116f0/handler/xmodule_handler" data-problem-score="0" data-problem-total-possible="1" data-attempts-used="0" data-content="
+
+
+
+&lt;h3 class=&quot;hd hd-3 problem-header&quot; id=&quot;f05712df438e4acab4981316900116f0-problem-title&quot; aria-describedby=&quot;block-v1:SkillFactory+PDEV+2021+type@problem+block@f05712df438e4acab4981316900116f0-problem-progress&quot; tabindex=&quot;-1&quot;&gt;
+  Задание 7.1
+&lt;/h3&gt;
+
+&lt;div class=&quot;problem-progress&quot; id=&quot;block-v1:SkillFactory+PDEV+2021+type@problem+block@f05712df438e4acab4981316900116f0-problem-progress&quot;&gt;&lt;/div&gt;
+
+&lt;div class=&quot;problem&quot;&gt;
+  &lt;div&gt;
+  &lt;div class=&quot;wrapper-problem-response&quot; tabindex=&quot;-1&quot; aria-label=&quot;Вопрос 1&quot; role=&quot;group&quot;&gt;&lt;p&gt;Добавьте ещё один файл в репозиторий. Зафиксируйте изменения. Отправьте изменения на сервер. Убедитесь, что новый файл появился в удалённом репозитории на &lt;em&gt;GitHub&lt;/em&gt;. &lt;/p&gt;
+    &lt;p&gt;После каждого шага необходимо выполнить команду … , чтобы убедиться в синхронизации веток &lt;em&gt;master&lt;/em&gt; на локальном компьютере и удалённом сервере и фиксации изменений.&lt;/p&gt;
+    &lt;p&gt;Впишите название команды:&lt;/p&gt;
+    &lt;div id=&quot;inputtype_f05712df438e4acab4981316900116f0_2_1&quot; class=&quot; capa_inputtype  textline&quot;&gt;
+
+    &lt;div class=&quot;unanswered &quot;&gt;
+
+
+
+&lt;input type=&quot;text&quot; name=&quot;input_f05712df438e4acab4981316900116f0_2_1&quot; id=&quot;input_f05712df438e4acab4981316900116f0_2_1&quot; aria-describedby=&quot;status_f05712df438e4acab4981316900116f0_2_1&quot; value=&quot;&quot; size=&quot;20&quot;/&gt;
+&lt;span class=&quot;trailing_text&quot; id=&quot;trailing_text_f05712df438e4acab4981316900116f0_2_1&quot;/&gt;
+
+
+
+&lt;span class=&quot;status unanswered&quot; id=&quot;status_f05712df438e4acab4981316900116f0_2_1&quot; data-tooltip=&quot;Ответ пока не дан.&quot;&gt;
+  &lt;span class=&quot;sr&quot;&gt;нет ответа&lt;/span&gt;&lt;span class=&quot;status-icon&quot; aria-hidden=&quot;true&quot;/&gt;
+&lt;/span&gt;
+
+
+&lt;p id=&quot;answer_f05712df438e4acab4981316900116f0_2_1&quot; class=&quot;answer&quot;/&gt;
+
+
+    &lt;/div&gt;
+
+
+&lt;/div&gt;&lt;/div&gt;
+  
+&lt;/div&gt;
+  &lt;div class=&quot;action&quot;&gt;
+    &lt;input type=&quot;hidden&quot; name=&quot;problem_id&quot; value=&quot;Задание 7.1&quot; /&gt;
+      &lt;div class=&quot;problem-hint&quot;&gt;
+        
+
+
+&lt;div class=&quot;notification problem-hint notification-hint
+      is-hidden&quot;
+     tabindex=&quot;-1&quot;&gt;
+    &lt;span class=&quot;icon fa fa-question&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+    &lt;span class=&quot;notification-message&quot; aria-describedby=&quot;f05712df438e4acab4981316900116f0-problem-title&quot;&gt;
+    &lt;/span&gt;
+    &lt;div class=&quot;notification-btn-wrapper&quot;&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-default btn-small notification-btn hint-button&quot;&gt;
+          Next Hint
+        &lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-default btn-small notification-btn review-btn sr&quot;&gt;Review&lt;/button&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+      &lt;/div&gt;
+
+    &lt;div class=&quot;problem-action-buttons-wrapper&quot;&gt;
+      &lt;span class=&quot;problem-action-button-wrapper&quot;&gt;
+          &lt;button type=&quot;button&quot; class=&quot;hint-button problem-action-btn btn-link btn-small&quot; data-value=&quot;Hint&quot; &gt;Hint&lt;/button&gt;
+      &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;submit-attempt-container&quot;&gt;
+      &lt;button type=&quot;button&quot; class=&quot;submit btn-brand&quot; data-submitting=&quot;Отправка&quot; data-value=&quot;Отправить&quot; data-should-enable-submit-button=&quot;True&quot; aria-describedby=&quot;submission_feedback_f05712df438e4acab4981316900116f0&quot; &gt;
+          &lt;span class=&quot;submit-label&quot;&gt;Отправить&lt;/span&gt;
+      &lt;/button&gt;
+
+      &lt;div class=&quot;submission-feedback &quot; id=&quot;submission_feedback_f05712df438e4acab4981316900116f0&quot;&gt;
+        &lt;span class=&quot;sr&quot;&gt;Some problems have options such as save, reset, hints, or show answer. These options follow the Submit button.&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+    
+
+
+&lt;div class=&quot;notification warning notification-gentle-alert
+      is-hidden&quot;
+     tabindex=&quot;-1&quot;&gt;
+    &lt;span class=&quot;icon fa fa-exclamation-circle&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+    &lt;span class=&quot;notification-message&quot; aria-describedby=&quot;f05712df438e4acab4981316900116f0-problem-title&quot;&gt;
+    &lt;/span&gt;
+    &lt;div class=&quot;notification-btn-wrapper&quot;&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-default btn-small notification-btn review-btn sr&quot;&gt;Review&lt;/button&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+    
+
+
+&lt;div class=&quot;notification warning notification-save
+      is-hidden&quot;
+     tabindex=&quot;-1&quot;&gt;
+    &lt;span class=&quot;icon fa fa-save&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+    &lt;span class=&quot;notification-message&quot; aria-describedby=&quot;f05712df438e4acab4981316900116f0-problem-title&quot;&gt;None
+    &lt;/span&gt;
+    &lt;div class=&quot;notification-btn-wrapper&quot;&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-default btn-small notification-btn review-btn sr&quot;&gt;Review&lt;/button&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+    
+    
+
+
+&lt;div class=&quot;notification general notification-show-answer
+      is-hidden&quot;
+     tabindex=&quot;-1&quot;&gt;
+    &lt;span class=&quot;icon fa fa-info-circle&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+    &lt;span class=&quot;notification-message&quot; aria-describedby=&quot;f05712df438e4acab4981316900116f0-problem-title&quot;&gt;Answers are displayed within the problem
+    &lt;/span&gt;
+    &lt;div class=&quot;notification-btn-wrapper&quot;&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-default btn-small notification-btn review-btn sr&quot;&gt;Review&lt;/button&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;script&gt;
+    function emit_event(message) {
+        parent.postMessage(message, '*');
+    }
+&lt;/script&gt;
+" data-graded="False">
+
+
+
+<h3 class="hd hd-3 problem-header" id="f05712df438e4acab4981316900116f0-problem-title" aria-describedby="block-v1:SkillFactory+PDEV+2021+type@problem+block@f05712df438e4acab4981316900116f0-problem-progress" tabindex="-1">
+  Задание 7.1
+</h3>
+
+<div class="problem-progress" id="block-v1:SkillFactory+PDEV+2021+type@problem+block@f05712df438e4acab4981316900116f0-problem-progress">1 point possible (ungraded)</div>
+
+<div class="problem">
+  <div>
+  <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group"><p>Добавьте
+ ещё один файл в репозиторий. Зафиксируйте изменения. Отправьте 
+изменения на сервер. Убедитесь, что новый файл появился в удалённом 
+репозитории на <em>GitHub</em>. </p>
+    <p>После каждого шага необходимо выполнить команду … , чтобы убедиться в синхронизации веток <em>master</em> на локальном компьютере и удалённом сервере и фиксации изменений.</p>
+    <p>Впишите название команды:</p>
+    <div id="inputtype_f05712df438e4acab4981316900116f0_2_1" class=" capa_inputtype  textline">
+
+    <div class="unanswered ">
+
+
+
+<input type="text" name="input_f05712df438e4acab4981316900116f0_2_1" id="input_f05712df438e4acab4981316900116f0_2_1" aria-describedby="status_f05712df438e4acab4981316900116f0_2_1" size="20">
+<span class="trailing_text" id="trailing_text_f05712df438e4acab4981316900116f0_2_1"></span>
+
+
+
+<span class="status unanswered" id="status_f05712df438e4acab4981316900116f0_2_1" data-tooltip="Ответ пока не дан.">
+  <span class="sr">нет ответа</span><span class="status-icon" aria-hidden="true"></span>
+</span>
+
+
+<p id="answer_f05712df438e4acab4981316900116f0_2_1" class="answer"></p>
+
+
+    </div>
+
+
+</div></div>
+  
+</div>
+  <div class="action">
+    <input type="hidden" name="problem_id" value="Задание 7.1">
+      <div class="problem-hint" hint_index="0">
+        
+
+
+<div class="notification problem-hint notification-hint
+      is-hidden" tabindex="-1" hint_index="0" style="display: block;">
+    <span class="icon fa fa-question" aria-hidden="true"></span>
+    <span class="notification-message" aria-describedby="f05712df438e4acab4981316900116f0-problem-title"><ol><li class="hint-index-0" tabindex="-1"><strong>Подсказка (1 из 1): </strong>Впишите строчными буквами два слова через пробел.</li></ol></span>
+    <div class="notification-btn-wrapper">
+        <button type="button" class="btn btn-default btn-small notification-btn hint-button" disabled="disabled">
+          Next Hint
+        </button>
+        <button type="button" class="btn btn-default btn-small notification-btn review-btn sr">Review</button>
+    </div>
+</div>
+
+      </div>
+
+    <div class="problem-action-buttons-wrapper">
+      <span class="problem-action-button-wrapper">
+          <button type="button" class="hint-button problem-action-btn btn-link btn-small" data-value="Hint" disabled="disabled">Hint</button>
+      </span>
+    </div>
+    <div class="submit-attempt-container">
+      <button type="button" class="submit btn-brand" data-submitting="Отправка" data-value="Отправить" data-should-enable-submit-button="True" aria-describedby="submission_feedback_f05712df438e4acab4981316900116f0" disabled="disabled">
+          <span class="submit-label">Отправить</span>
+      </button>
+
+      <div class="submission-feedback " id="submission_feedback_f05712df438e4acab4981316900116f0">
+        <span class="sr">Some problems have options such as save, reset, hints, or show answer. These options follow the Submit button.</span>
+      </div>
+    </div>
+  </div>
+    
+
+
+<div class="notification warning notification-gentle-alert
+      is-hidden" tabindex="-1">
+    <span class="icon fa fa-exclamation-circle" aria-hidden="true"></span>
+    <span class="notification-message" aria-describedby="f05712df438e4acab4981316900116f0-problem-title">
+    </span>
+    <div class="notification-btn-wrapper">
+        <button type="button" class="btn btn-default btn-small notification-btn review-btn sr">Review</button>
+    </div>
+</div>
+
+    
+
+
+<div class="notification warning notification-save
+      is-hidden" tabindex="-1">
+    <span class="icon fa fa-save" aria-hidden="true"></span>
+    <span class="notification-message" aria-describedby="f05712df438e4acab4981316900116f0-problem-title">None
+    </span>
+    <div class="notification-btn-wrapper">
+        <button type="button" class="btn btn-default btn-small notification-btn review-btn sr">Review</button>
+    </div>
+</div>
+
+    
+    
+
+
+<div class="notification general notification-show-answer
+      is-hidden" tabindex="-1">
+    <span class="icon fa fa-info-circle" aria-hidden="true"></span>
+    <span class="notification-message" aria-describedby="f05712df438e4acab4981316900116f0-problem-title">Answers are displayed within the problem
+    </span>
+    <div class="notification-btn-wrapper">
+        <button type="button" class="btn btn-default btn-small notification-btn review-btn sr">Review</button>
+    </div>
+</div>
+
+</div>
+
+<script>
+    function emit_event(message) {
+        parent.postMessage(message, '*');
+    }
+</script>
+</div>
+
+</div>
+
+    </div>
+    <div class="vert vert-5" data-id="block-v1:SkillFactory+PDEV+2021+type@html+block@605b92ca86ca49779dfa873924b9b0ab">
+        
+<div class="xblock xblock-student_view xblock-student_view-html xmodule_display xmodule_HtmlBlock xblock-initialized" data-course-id="course-v1:SkillFactory+PDEV+2021" data-init="XBlockToXModuleShim" data-runtime-class="LmsRuntime" data-runtime-version="1" data-block-type="html" data-usage-id="block-v1:SkillFactory+PDEV+2021+type@html+block@605b92ca86ca49779dfa873924b9b0ab" data-request-token="bce76f56735e11efa83fb2a9ab5ee11d" data-graded="False" data-has-score="False">
+  
+  <p></p>
+<p></p>
+<h3 class="hd hd-3 problem-header" id="021123fbf2414b159e24e2b45232735e-problem-title" aria-describedby="block-v1:skillfactory+QAP-1+19mar2020+type@problem+block@021123fbf2414b159e24e2b45232735e-problem-progress" tabindex="-1" style="text-rendering: optimizelegibility; padding: 0px; border: 0px; outline: none; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-weight: 400; font-stretch: inherit; font-size: 1.35em; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: #4c4c4c;" spellcheck="false" data-gramm="false">Задание 7.2</h3>
+<p></p>
+<p>Добавьте один новый файл в репозиторий и измените один файл. После 
+этого добавьте файлы в индекс, выполните фиксацию изменений. После 
+каждого шага проверьте, как отображается статус файлов.</p>
+<p>Выполните команду <code style="background-color: #f0f8ff;">git log</code> до и после выполнения команды <code style="background-color: #f0f8ff;">git push</code>.</p>
+<p>Посмотрите, что изменилось.</p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p><details open=""><summary><span style="color: #00b43f;">Возможный ответ</span></summary>
+<p></p>
+<p>До выполнения команды <em>push</em>:</p>
+<p></p>
+<p style="text-align: center;"><img src="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/qap_un_9_9.4.before_push.png" alt="img" style="-webkit-filter: drop-shadow(5px 5px 5px #222); filter: drop-shadow(5px 5px 5px #666666); margin-bottom: 5px;" width="800"></p>
+<p></p>
+<p>После выполнения команды <em>push</em>:</p>
+<p></p>
+<p style="text-align: center;"><img src="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/qap_un_9_9.4.after_push.png" alt="img" style="-webkit-filter: drop-shadow(5px 5px 5px #222); filter: drop-shadow(5px 5px 5px #666666); margin-bottom: 5px;" width="800"></p>
+<p></p>
+<p>Индекс на сервере и в локальном репозитории в ветке <em>master</em> после операции <em>push</em> указывают на один и тот же коммит.</p>
+</details><p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+</div>
+
+    </div>
+    <div class="vert vert-6" data-id="block-v1:SkillFactory+PDEV+2021+type@html+block@437de57eb20040b5a5cc35ba3d442b4c">
+        
+<div class="xblock xblock-student_view xblock-student_view-html xmodule_display xmodule_HtmlBlock xblock-initialized" data-course-id="course-v1:SkillFactory+PDEV+2021" data-init="XBlockToXModuleShim" data-runtime-class="LmsRuntime" data-runtime-version="1" data-block-type="html" data-usage-id="block-v1:SkillFactory+PDEV+2021+type@html+block@437de57eb20040b5a5cc35ba3d442b4c" data-request-token="bce76f56735e11efa83fb2a9ab5ee11d" data-graded="False" data-has-score="False">
+  
+  <div style="background-color: #f5f5f5; padding: 15px;">
+<h2><strong><img src="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/book_1.png" alt="img" height="50">&nbsp; &nbsp;Дополнительно</strong></h2>
+<ul>
+<ul>
+<li>Всё, что мы делали с помощью терминала, можно делать и в приложениях
+ с графическим интерфейсом. Для работы в них ознакомьтесь с 
+возможностями интерфейса. Например,&nbsp;<span style="text-decoration: underline;"><a href="https://help.github.com/en/desktop/getting-started-with-github-desktop" target="_blank" style="text-decoration: underline;">GitHub Desktop</a></span>.</li>
+<li>Всё, что вы хотели знать о <em>GitHub</em>, можно найти <span style="text-decoration: underline;"><a href="https://help.github.com/en#dotcom" target="_blank" style="text-decoration: underline;">здесь</a></span>.</li>
+</ul>
+</ul>
+</div>
+<p></p>
+<p></p>
+</div>
+
+    </div>
+</div>
+
+
+  
+  <script type="text/javascript">
+    (function (require) {
+        require(['https://lms\u002Dcdn.skillfactory.ru/static/js/dateutil_factory.a28baef97506.js?raw'], function () {
+          require(['js/dateutil_factory'], function (DateUtilFactory) {
+            
+    DateUtilFactory.transform('.localized-datetime');
+
+          });
+        });
+    }).call(this, require || RequireJS.require);
+  </script>
+
+
+<script>
+    function emit_event(message) {
+        parent.postMessage(message, '*');
+    }
+</script>
+
+</div>
+
+      </main>
+  </section>
+</div>
+
+<link rel="stylesheet" href="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/default.min.css">
+<script src="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/highlight.min.js"></script>
+<script type="text/javascript">
+  (function() {
+    // If this view is rendered in an iframe within the learning microfrontend app
+    // it will report the height of its contents to the parent window when the
+    // document loads, window resizes, or DOM mutates.
+    if (window !== window.parent) {
+      document.body.className += ' view-in-mfe';
+      var lastHeight = window.offsetHeight;
+      var lastWidth = window.offsetWidth;
+      var contentElement = document.getElementById('content');
+
+      function dispatchResizeMessage(event) {
+        // Note: event is actually an Array of MutationRecord objects
+        // when fired from the MutationObserver
+        var eventType = event.type || 'mutate';
+        var newHeight = contentElement.offsetHeight;
+        var newWidth = contentElement.offsetWidth;
+        if (eventType !== 'load' && newWidth === lastWidth && newHeight === lastHeight) {
+            // Monitor when any anchor tag is clicked, it is checked to make sure
+            // it is referencing an element's id or name (not an external website). If
+            // the href attribute is an id or name, the location of the selected focus
+            // element is sent through its offset attribute. The offset will
+            // allow the page to scroll to the location of the focus element so
+            // that it is at the top of the page. Unique ids and names are
+            // required for proper scrolling.
+            $('a').on("click", function(event){
+              if ($(this).attr('href')[0] === "#") {
+                var targetId = $(this).attr('href');
+                var targetName = $(this).attr('href').slice(1);
+                // Checks if the target uses an id or name to focus and gets offset.
+                var targetOffset = $(targetId).offset() || $(document.getElementsByName(targetName)[0]).offset();
+                if (targetOffset) {
+                  event.preventDefault();
+                  window.parent.postMessage({"offset": targetOffset.top}, document.referrer);
+                }
+              }
+            })
+          return;
+        }
+        // Monitor for messages and checks if the message contains an id. If
+        // there is an id, then the location of the selected focus element
+        // is sent through its offset attribute. The offset will allow the
+        // page to scroll to the location of the focus element so that it is
+        // at the top of the page. Unique ids and names are required for
+        // proper scrolling.
+        window.addEventListener('message', function (event) {
+          if (event.data.hashName) {
+            var targetId = event.data.hashName;
+            var targetName = event.data.hashName.slice(1);
+            // Checks if the target uses an id or name to focus and gets offset.
+            var targetOffset = $(targetId).offset() || $(document.getElementsByName(targetName)[0]).offset();
+            window.parent.postMessage({ 'offset': targetOffset.top }, document.referrer);
+          }
+        })
+
+        window.parent.postMessage({
+            type: 'plugin.resize',
+            payload: {
+              width: newWidth,
+              height: newHeight,
+            }
+          }, document.referrer
+        );
+
+        lastHeight = newHeight;
+        lastWidth = newWidth;
+
+          let scrollBeforeFullscreenElement = null;
+
+          function changeHandler() {
+              if (!document.fullscreenElement) {
+                  if (scrollBeforeFullscreenElement !== null) {
+                      window.parent.postMessage(
+                          {
+                              type: 'iframe.fullscreenExit',
+                              payload: {
+                                  y: scrollBeforeFullscreenElement.getBoundingClientRect().top + scrollBeforeFullscreenElement.offsetHeight / 2,
+                              }
+                          }, '*'
+                      );
+                      scrollBeforeFullscreenElement = null;
+                  }
+              } else {
+                  scrollBeforeFullscreenElement = document.fullscreenElement;
+              }
+          }
+
+          window.addEventListener('fullscreenchange', changeHandler, true);
+          window.addEventListener('webkitfullscreenchange', changeHandler, true);
+          window.addEventListener('mozfullscreenchange', changeHandler, true);
+
+        // Within the learning microfrontend the iframe resizes to match the
+        // height of this document and it should never scroll. It does scroll
+        // ocassionally when javascript is used to focus elements on the page
+        // before the parent iframe has been resized to match the content
+        // height. This window.scrollTo is an attempt to keep the content at the
+        // top of the page. See TNL-7094
+        window.scrollTo(0, 0);
+      }
+
+      // Create an observer instance linked to the callback function
+      const observer = new MutationObserver(dispatchResizeMessage);
+
+      // Start observing the target node for configured mutations
+      observer.observe(document.body, { attributes: true, childList: true, subtree: true });
+
+      window.addEventListener('load', dispatchResizeMessage);
+      window.addEventListener('resize', dispatchResizeMessage);
+
+      const resizeObserver = new ResizeObserver(dispatchResizeMessage);
+      resizeObserver.observe(document.body);
+    }
+  }());
+  document.addEventListener('DOMContentLoaded', (event) => {
+      document.querySelectorAll('pre').forEach((el) => {
+          hljs.highlightElement(el);
+      });
+  });
+</script>
+
+    
+</div>
+
+
+
+
+
+  <script type="text/javascript" src="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/jquery.scrollTo.525edcc52fe8.js" async=""></script>
+  <script type="text/javascript" src="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/jquery.flot.d3d45ff0c6a8.js" async=""></script>
+
+  
+    
+<script type="text/javascript" src="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/lms-courseware.9517dcd2081d.js" charset="utf-8"></script>
+
+
+
+    
+
+
+
+
+<script type="text/javascript">
+    // Fast Preview was introduced in 2.5. However, it
+    // causes undesirable flashing/font size changes when
+    // MathJax is used for interactive preview (equation editor).
+    // Setting processSectionDelay to 0 (see below) fully eliminates
+    // fast preview, but to reduce confusion, we are also setting
+    // the option as displayed in the context menu to false.
+    // When upgrading to 2.6, check if this variable name changed.
+    window.MathJax = {
+      menuSettings: {CHTMLpreview: false}
+    };
+</script>
+
+<script type="text/x-mathjax-config;executed=true">
+  MathJax.Hub.Config({
+    messageStyle: "none",
+    tex2jax: {
+      inlineMath: [
+        ["\\(","\\)"],
+        ['[mathjaxinline]','[/mathjaxinline]']
+      ],
+      displayMath: [
+        ["\\[","\\]"],
+        ['[mathjax]','[/mathjax]']
+      ]
+    }
+  });
+</script>
+<script type="text/x-mathjax-config;executed=true">
+
+  // In order to eliminate all flashing during interactive
+  // preview, it is necessary to set processSectionDelay to 0
+  // (remove delay between input and output phases). This
+  // effectively disables fast preview, regardless of
+  // the fast preview setting as shown in the context menu.
+  MathJax.Hub.processSectionDelay = 0;
+
+  MathJax.Hub.signal.Interest(function(message) {
+    if(message[0] === "End Math") {
+        set_mathjax_display_div_settings();
+    }
+  });
+  function set_mathjax_display_div_settings() {
+    $('.MathJax_Display').each(function( index ) {
+      this.setAttribute('tabindex', '0');
+      this.setAttribute('aria-live', 'off');
+      this.removeAttribute('role');
+      this.removeAttribute('aria-readonly');
+    });
+  }
+</script>
+
+<script type="text/javascript">
+    // Activating Mathjax accessibility files
+    window.MathJax = {
+        menuSettings: {
+            collapsible: true,
+            autocollapse: false,
+            explorer: true
+        }
+    };
+</script>
+
+<!-- This must appear after all mathjax-config blocks, so it is after the imports from the other templates.
+     It can't be run through static.url because MathJax uses crazy url introspection to do lazy loading of
+     MathJax extension libraries -->
+<script type="text/javascript" src="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/MathJax.js"></script>
+
+
+<script src="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/HtmlBlockPreview.47dfb3a011d61e073bb9.68644e9f6662.js" type="application/javascript"></script>
+<script src="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/XModuleShim.b0a0bcfa4bfc116299b0.0021dbb8621f.js" type="application/javascript"></script>
+<script src="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/ProblemBlockPreview.3c293987029be310b69a.40765775f6c6.js" type="application/javascript"></script>
+<script src="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/VerticalStudentView.218999454019487e3bbe.50411955078b.js" type="application/javascript"></script>
+
+
+
+
+
+
+
+<script type="text/javascript" src="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/noreferrer.aa62a3e70ffa.js" charset="utf-8"></script>
+<script type="text/javascript" src="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/navigation.08930e16ab3d.js" charset="utf-8"></script>
+<script type="text/javascript" src="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/header.309a1243e175.js"></script>
+
+<script type="text/javascript" src="block-v1SkillFactoryPDEV2021typeverticalblockd909e529faec4ab38fe/jquery_extend_patch.54dddef28d15.js"></script>
+<div id="lean_overlay"></div>
+
+
+
+
+
+<div id="reader-feedback" class="sr" aria-live="polite"></div><div class="tooltip" style="display: none; opacity: 0;"></div></body></html>
